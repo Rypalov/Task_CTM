@@ -1,0 +1,7 @@
+README.md
+setup.py
+Rypalov_task_CTM.egg-info/PKG-INFO
+Rypalov_task_CTM.egg-info/SOURCES.txt
+Rypalov_task_CTM.egg-info/dependency_links.txt
+Rypalov_task_CTM.egg-info/top_level.txt
+test/test_result_net.py
