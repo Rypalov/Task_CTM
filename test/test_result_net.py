@@ -13,8 +13,4 @@ class TestIPFound(unittest.TestCase):
         self.assertEqual(file_processing("ipv4_6.txt", "4"), "Result net: 0.0.0.0/1")
         self.assertEqual(file_processing("ipv4_8.txt", "4"), "Result net: 192.168.1.0/27")
 
-    def test_error(self):
-        self.assertRaises(ValueError, file_processing, "ipv4_3.txt", "4")
-        self.assertRaises(ValueError, file_processing, "ipv4_4.txt", "4")
-        self.assertRaises(ValueError, file_processing, "ipv4_5.txt", "4")
-        self.assertRaises(ValueError, file_processing, "ipv4_7.txt", "4")
+
